@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(images/travel2.jpg);
+    background-size: cover;
+    font-family: Verdana, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(6, 6, 6);
+}
+nav span{
+    color: rgb(241, 5, 76);
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(252, 246, 246);
+    padding: 10px 20px;
+    font-size: 18px;
+    position: relative;
+    font-weight: 400;
+}
+.menu a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(8, 8, 8);
+    transition: 0.4s linear;
+}
+.menu a:hover::before{
+    width: 80%;
+}
+.login a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgb(227, 32, 32);
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.login a:hover{
+    font-size: 20px;
+    color: rgb(9, 240, 9);
+    background: transparent;
+    cursor: pointer;
+
+}
+.section{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(5, 5, 5);
+}
+.section span{
+    color: rgb(34, 2, 2);
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+#word{
+    font-size: 70px;
+    color: rgb(241, 5, 76);
+}
+section h1{
+    font-size: 3.5em;
+}
+.section a{
+    text-decoration: none;
+    background-color: rgb(237, 38, 38);
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.section a:hover{
+    color: rgb(241, 5, 76);
+    background: black;
+    cursor: pointer;
+}
