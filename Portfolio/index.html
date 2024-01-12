@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">PORT<span>FOLIO</span></div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">About Me </a>
+          <a href="#">Skills</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Me</a>
+        </div>
+      </nav>
+      <div class="text">
+        <p>Hi, I'm</p>
+        <h1>JYOTI SAINI</h1>
+        <p>And I'm a Front-end Developer</p>
+        <button type="button" class="btn">Hire Me</button>
+      </div>
+    </header>
+
+    <section id="nav-bar">
+      <img src="images/menu-bg.png" id="menu-img" />
+      <a href="#">Home</a>
+      <a href="#">About Me </a>
+      <a href="#">Skills</a>
+      <a href="#">Services</a>
+      <a href="#">Contact Me</a>
+    </section>
+
+    <!-------------about------------------- -->
+    <section id="about">
+      <div class="info">
+        <h1>About Me</h1>
+        <p>Who I am ?</p>
+      </div>
+
+      <div class="about-me">
+        <div class="about-img">
+          <img src="images/image2 (2).png" />
+        </div>
+
+        <div class="about-text">
+          <p id="title">Hello, I'm Jyoti Saini & I'm a Front-end Developer</p>
+          <p>
+            As a fresh front-end developer, my primary goal is to create
+            engaging and user friendly interfaces that bring websites and web
+            applications to life. I am eager to apply my passion for coding and
+            design to create engaging and innovative user interfaces. I work
+            with a combination of HTML, CSS and JavaScript to craft visually
+            appealing designs that are also functional and intutive. I am
+            enthusiastic about learning new technologies and methodologies to
+            enhance my skills and contribute to cutting-edge projects. I am
+            dedicated to collabrating with experienced developers and designers
+            to gain valuable insights and improve my abilites. I am excited to
+            bring my creativity and problem-solving skills to the table, and I
+            am commited to delivering high-quality, user-centric web
+            experienced.
+          </p>
+          <a href="Jyoti Cv  (1).pdf"><span class="btn">Download CV</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------skills------------ -->
+    <section id="skills">
+      <div class="info">
+        <h1 style="color: white">Skills</h1>
+        <p>My Skills</p>
+      </div>
+
+      <div class="skills-main">
+        <div class="skills-main-left">
+          <p>
+            Hello, I'm Jyoti Saini and I work as a web developer. I have been
+            working as a web developer for quite some time now. I believe I am a
+            very ambitious person who loves to work on making the website work
+            well. Working on the web is my passion as I love to work on exciting
+            projects
+          </p>
+          <button type="button" class="btn">Read more</button>
+        </div>
+
+        <div class="skills-main-right">
+          <div class="progress-bar">
+            <p>
+              <span>HTML</span>
+              <br />
+              <progress value="80" max="100"></progress>
+              <span>80%</span>
+            </p>
+            <p>
+              <span>CSS</span>
+              <br />
+              <progress value="75" max="100"></progress>
+              <span>75%</span>
+            </p>
+            <p>
+              <span>JavaScript</span>
+              <br />
+              <progress value="65" max="100"></progress>
+              <span>65%</span>
+            </p>
+            <p>
+              <span>Bootstrap</span>
+              <br />
+              <progress value="50" max="100"></progress>
+              <span>50%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------Services-------------------->
+
+    <section id="services">
+      <div class="info">
+        <h1>Services</h1>
+        <p>What I provide</p>
+      </div>
+
+      <div class="services-main">
+        <div class="main1" data-tilt>
+          <img src="images/bg2.jpg" />
+          <h2>Web Design</h2>
+          <p>
+            As a web designer, my goal is to create visually appealing and
+            user-friendly websites that effectively communication my client's
+            message. I strive to incorporate modern design trends and best
+            practices to ensure that the website is not onle aesthetically
+            pleasing but also functional and easy to navigate.
+          </p>
+        </div>
+        <div class="main1" data-tilt>
+          <img src="images/bg2.jpg" />
+          <h2>Web Development</h2>
+          <p>
+            As a web developer, my focus is on creating efficient,
+            responsive,and secure websites that meet the needs of my client. I
+            work with the variety of programming languages and tools to build
+            websites that are not only visually appealling but also function
+            smoothly across different devices and platform.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-----------------contact me-------------------- -->
+
+    <section id="contact">
+      <div class="info" style="color: white">
+        <h1>Contact Me</h1>
+        <p style="color: black">Connect with me</p>
+      </div>
+
+      <div class="contact-me">
+        <div class="contact-left">
+          <img src="images/img.jpg" alt="" />
+        </div>
+        <div class="contact-right">
+          <form>
+            <h2>Get in touch</h2>
+            <input type="text" placeholder="Enter Your Name" />
+            <input type="email" placeholder="Enter Your E-mail" />
+            <br />
+            <textarea cols="40" rows="10" placeholder="Message"></textarea>
+            <br />
+            <button class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-------------footer--------------------->
+
+    <section id="footer">
+      <h2>
+        @Developed by <br />
+        Jyoti Saini
+      </h2>
+      <img src="images/icon.png" width="100px" />
+    </section>
+
+    <!--------------javascript------------------>
+
+    <script src="jquery.ripples-min.js"></script>
+    <script>
+      jQuery(document).ready(function () {
+        $("header").ripples({
+          dropRadius: 20,
+          perturbance: 0.03,
+        });
+      });
+    </script>
+    <script src="script.js"></script>
+    <script src="tilt.jquery.min.js"></script>
+  </body>
+</html>
